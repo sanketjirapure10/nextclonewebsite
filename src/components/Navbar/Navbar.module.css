@@ -1,0 +1,233 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.logoddd {
+  /* font-size: 1.5rem; */
+  font-size: 28px;
+  cursor: pointer;
+  margin-right: 20px; /* Add right margin to create space */
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 19px;
+}
+
+.nanmenu {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  text-decoration-color: #000;
+  min-width: 260px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+  text-align: left;
+  margin-left: -50px;
+  margin-top: 5px;
+  border-radius: 29px;
+  padding: 10px 10px 0px 10px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent div {
+  border-radius: 20px;
+  color: hsl(0, 30%, 96%);
+  text-align: left;
+  padding: 8px 8px 8px 15px;
+  font-size: 19px;
+  margin: 10px;
+}
+
+.dropdownContent::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 0 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #000;
+  text-decoration-color: transparent transparent #000;
+  text-align: left;
+  font-size: 19px;
+}
+
+.navLinkunderline {
+  text-decoration: none;
+}
+.navLinkunderline:hover {
+  text-decoration: none;
+}
+
+.navLinkunderline1 {
+  text-decoration: none;
+}
+
+.navLinkunderline1:hover {
+  text-decoration: none;
+}
+
+.navLinksubdropdown:hover {
+  border-radius: 20px;
+  color: hsl(0, 30%, 96%);
+  background-color: #342f2f7d;
+  text-decoration-color: #342f2f7d;
+  text-align: left;
+  padding: 8px 8px 8px 15px;
+  font-size: 19px;
+  margin: 10px;
+}
+
+.loginSignup {
+  display: flex;
+  align-items: center;
+}
+.loginSignup .navLink11 {
+  margin-left: 15px;
+  font-size: 19px;
+  color: #fff;
+  padding: 6px 15px 6px 15px;
+  font-weight: 400;
+}
+.loginSignup .navLink11:hover {
+  background-color: #262626f5;
+  color: #ffb441;
+  border-radius: 10px;
+  font-size: 19px;
+  padding: 6px 15px 6px 15px;
+  font-weight: 400;
+}
+.loginSignup .navLink11:last-child:hover {
+  border-radius: 20px;
+  border-color: #262626f5;
+  font-size: 19px;
+  padding: 8px 16px 8px 16px;
+  font-weight: 400;
+}
+.loginSignup .navLink22 {
+  margin-left: 5px;
+  background-color: #ffb441;
+  color: #000;
+  font-size: 19px;
+  padding: 8px 18px 8px 18px;
+  border-radius: 20px;
+  font-weight: 400;
+}
+.loginSignup .navLink22:hover {
+  background-color: #000;
+  color: #ffb441;
+  font-size: 19px;
+  padding: 8px 18px 8px 18px;
+  border-radius: 20px;
+  font-weight: 400;
+  /* border-color: #ffb441; */
+  border: 2px solid #ffb441;
+}
+/* .loginSignup .navLink22:last-child:hover {
+  background-color: #000;
+  color: #ffb441;
+  font-size: 19px;
+  padding: 8px 18px 8px 18px;
+  border-radius: 20px;
+  font-weight: 400;
+  border-color: #ffb441;
+} */
+
+/* Add this CSS to your existing styles */
+.menuButton {
+  display: none;
+  background-color: #1a1a1a;
+  color: #ffb441;
+  padding: 5px 5px;
+  width: 27px;
+  height: 27px;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Media query for screens below 990px */
+
+@media (max-width: 990px) {
+  .menuButton {
+    display: block;
+  }
+
+  .nanmenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+  }
+
+  .showMenu {
+    display: flex;
+    width: 100%;
+    background-color: #1a1919;
+    height: 90vh;
+    margin-top: 46px;
+  }
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 15px;
+    font-size: 19px;
+  }
+}
+
+/* @media (max-width: 776px) {
+
+.loginSignup .navLink22 {
+  margin-left: 5px;
+  background-color: #ffb441;
+  color: #000;
+  font-size: 15px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 18px;
+  font-weight: 400;
+}
+
+.loginSignup .navLink11 {
+display: none;
+}
+.logoddd {
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #fff;
+}
+
+
+} */

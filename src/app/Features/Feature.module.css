@@ -1,0 +1,24 @@
+.bannerImage {
+    max-width: 100vw;
+    color: beige;
+    background-color: #1a1a1a;
+  } 
+  
+  .bannerImage1 {
+    /* Add other styles as needed */
+    padding: 30px 145px 10px 145px;
+    max-width: 100vw;
+    color: beige;
+    background-image: url('../../../public/images/Abstract_Feature_Background.png'); /* Replace 'path/to/banner.webp' with the actual path to your image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    /* height: 80vh; */
+    height: 58vh;
+  }
+  
+  .bannerImage2 {
+    padding: 40px 145px 10px 145px;
+    max-width: 100vw;
+    color: beige;
+  }

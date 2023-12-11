@@ -1,0 +1,27 @@
+.bannerImage {
+    max-width: 100vw;
+    color: beige;
+    background-color: #1a1a1a;
+  } 
+  
+  .bannerImage1 {
+    /* padding: 30px 145px 10px 145px;
+    max-width: 100vw;
+    color: beige;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    height: 58vh; */
+    padding: 30px 145px 10px 145px;
+    max-width: 100vw;
+    color: beige;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .bannerImage2 {
+    padding: 40px 145px 10px 145px;
+    max-width: 100vw;
+    color: beige;
+  }
